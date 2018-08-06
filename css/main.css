@@ -1,7 +1,7 @@
 .wrapper {
     max-width: 1020px;
     margin: 0 auto;
-    background-color: #000000
+    background-color: #000000;
 }
 
 .header img{
@@ -13,14 +13,14 @@
 .header-text {
     float: right;
     font-family: 'Anonymous Pro', monospace;
-    color: #01da30
+    color: #01da30;
 }
 
 .header-text h1{
-    margin-bottom: 0%
+    margin-bottom: 0%;
 }
 
-.header-text h4{
+.header-text p{
     float: right;
     margin-top: 0%;
     font-weight: bold;
@@ -34,20 +34,21 @@
 
 .sec-main-img {
     width: 90%;
-    margin: 5%
+    margin: 5%;
 }
 
 .article {
-    width: 30%
+    width: 30%;
 }
 
 .img-main{
-    width: 100%
+    width: 100%;
 }
 
 .content-title{
     color: #01da30;
     font-family: 'Anonymous Pro', monospace;
+    padding-left: 5%;
 }
 
 .article-img{
@@ -55,8 +56,11 @@
     height: 120px;
 }
 
-.contacts-content{
-    padding-left: 10%
+.contacts-content-flex-grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%
 }
 
 .column{
@@ -69,19 +73,14 @@
 .column h4{
     font-family: 'Anonymous Pro', monospace;
     text-transform: uppercase;
-    color: #01da30
+    color: #01da30;
 }
 
 .column a{
-    color: #01da30
+    color: #01da30;
 }
 
 @media screen and (min-width:400px) and (max-width: 520px){
-    .column{
-        width: 50%;
-        padding: 5% 0;
-    }
-
     .header-text {
         font-family: 'Anonymous Pro', monospace;
         color: #01da30;
@@ -99,7 +98,7 @@
     .header img{
         width: 75px;
         height: 75px;
-        padding-top: 5%
+        padding-top: 2%
     }
 
     .header-text {
